@@ -1,0 +1,132 @@
+
+
+/* 1 columna para smartphones */
+@media screen and (max-width:767px){  
+    .breakpoint {
+      max-width: 100%;
+      display: inline-block;
+      
+      }
+      .imagen, .imagen2, .imagen3{
+        height:250px;
+        width: 210px; 
+        text-align: center;
+        max-width: 200%;
+      }
+       }
+      /* 4 columnas para grandes dispositivos*/
+      @media screen and (min-width:1200px){
+      .breakpoint  {
+      max-width: 100%;
+     
+      }
+      .imagen, .imagen2, .imagen3{
+        width:450px; 
+        height:350px;
+        max-width: 100%;
+      }
+      }
+     
+      #row{
+        font-family: 'Rammetto One', cursive;
+        color: blue;
+        font-size: 30px;
+        text-align: center;
+        margin: 70px;
+        
+      }
+    
+
+      .row{
+        text-align: center;
+        margin: 100px;
+      }
+     
+
+      /* 1 columna para smartphones */
+@media screen and (max-width:767px){  
+  .text{
+    max-width: 100%;
+    display: inline-block;
+    text-align: left; 
+    font-family: 'Stylish', sans-serif; 
+    font-size:20px; 
+    color: black;
+    margin-left:50px; 
+    
+    }
+    .boton{
+      text-align: left;
+      margin-top: 50px;
+            }
+    .text1{
+        font-family: 'Stylish', sans-serif;
+        font-size:20px; 
+        color: black;
+        text-align:left; 
+
+    }
+    .title, .title1, .title2{
+      font-family: 'Rammetto One', cursive;
+      color:black;
+      font-size:30px;
+      text-align: center; 
+    }
+    #text2, #text3, #text4{
+      text-align: left;
+      font-family: 'Stylish', sans-serif;
+      font-size:20px; 
+      color: black;
+    }
+    .boton1, .boton2, .boton3{
+      margin-top: 50px;
+    }
+     }
+  
+    /* 4 columnas para grandes dispositivos*/
+    @media screen and (min-width:1200px){
+      .text{
+        max-width: 100%;
+        display: inline-block;
+        text-align: center;
+            margin-right:20px; 
+            font-family: 'Stylish', sans-serif;
+            margin-left:30px; 
+            font-size:30px; 
+            color: black;
+    }
+    .boton{
+      text-align: left;
+      margin-left:170px;
+      margin-top: 50px;
+            }
+    .text1{
+      font-family: 'Stylish', sans-serif; 
+      font-size:30px; 
+      color: black;
+     text-align: left;
+     margin-left: 330px; 
+
+  }
+  .title, .title1, .title2{
+    font-family: 'Rammetto One', cursive;
+    color:black;
+    font-size:30px;
+    text-align: center; 
+  }
+  #text2, #text3, #text4{
+    text-align: left;
+    font-family: 'Stylish', sans-serif;
+    font-size:30px; 
+    color: black;
+  }
+  .boton1{
+    margin-top: 100px;
+  }
+  .boton2{
+    margin-top:140px;
+  }
+.boton3{
+  margin-top: 220px;
+}
+  }
