@@ -1,0 +1,28 @@
+/* 1 columna para grandes dispositivos */
+@media screen and (max-width:1200px){  
+    .breakpoint {
+      max-width: 100%;
+      
+      
+      }
+       }
+      /* 2 columnas para smartphones */
+      @media screen and (max-width:767px) {
+      .breakpoint  {
+      max-width: 100%;
+      }
+      }
+      /* 4 columnas para tablets*/
+      @media screen and (min-width:992px){
+      .breakpoint  {
+      max-width: 100%;
+      }
+      }
+
+      #Imagen{
+          text-align: center;
+          margin-top:-500px;
+          
+      }
+      
+      
